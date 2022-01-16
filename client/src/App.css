@@ -1,0 +1,189 @@
+.top{
+  margin-top: 85px;
+}
+.flex{
+  display: flex;
+  margin-left: auto;
+}
+.ilan-yazi{
+  margin: auto;
+  margin-left: -5%;
+}
+.black{color: black;}
+.midText{
+  text-align: center;
+  color: black;
+  font-weight: bold;
+  font-size: xx-large;
+}
+.slider{
+  margin:auto;
+  width: 75%;
+}
+.slider-item{
+  border-radius: 25px;
+  opacity: 0.7;
+}
+.estate-card{ 
+  background-color: #fff;
+  box-shadow: 0 10px 20px rgba(0,0,0,0), 0 6px 36px rgba(0,0,0,0.13);
+  border-radius: 25px;
+  margin: 10px 0;
+
+}
+.company-or-personal-card{
+  text-align: center;
+  background-color: #fff;
+  box-shadow: 0 10px 20px rgba(0,0,0,0), 0 6px 36px rgba(0,0,0,0.13);
+  border-radius: 25px;
+  margin: 10px 0;
+}
+.company-or-personal-image{
+  display: block;
+  margin:15px auto;
+  width: 80%;
+  border-radius: 25px;
+  overflow: hidden;
+  object-fit: cover;
+}
+#company-or-personal-card-body h5{
+  font-weight: bold;
+}
+
+#connection-bar a {
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+  color: black;
+  text-decoration: none;
+  margin-left:5px;
+  margin-right:5px;
+}
+
+.message{
+  text-align: center;
+}
+#navbar{   
+  background-color: white;
+  box-shadow: 0 10px 20px rgba(0,0,0,0), 0 6px 36px rgba(0,0,0,0.13);
+}
+#logo{
+  max-height: 50px;
+  margin-right: 10px;
+  border-radius: 25px;
+  position: relative;
+}
+.resim{
+  border-radius: 25px;
+  position: relative;
+  width: 100%;
+}
+.resim-yazi{
+  position: absolute;
+  color: black;
+  top: 50%; 
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: bolder;
+  font-size: 45px;
+}
+#navbarText{
+  color: black;
+  font-weight: bold;
+}
+
+#navbarText:hover{
+  color: black;
+  background-color: #8d9191;
+  border-radius: 50px;
+}
+
+#navbar-menu{
+  color: white;  
+}
+
+.wrapper{
+  justify-content: center;
+}
+
+.adminAlert{
+  padding: 10px 0;
+  text-align: center;
+  color: black;
+  background-color: white;
+  box-shadow: 0 10px 20px rgba(0,0,0,0), 0 6px 36px rgba(0,0,0,0.13);
+  border-radius: 25px;
+}
+
+.text{
+  width: 75%;
+  padding: 8px 20px;
+  border: none;
+  box-shadow: 0 10px 20px rgba(0,0,0,0), 0 6px 36px rgba(0,0,0,0.13);
+}
+.select{
+  text-align: center;
+  width: 75%;
+  padding: 8px 20px;
+  border-color:white;
+  box-shadow: 0 10px 20px rgba(0,0,0,0), 0 6px 36px rgba(0,0,0,0.13);
+}
+.button{
+  margin: 2%;
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0), 0 6px 36px rgba(0,0,0,0.13);
+  border-radius: 25px;
+}
+
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: white;
+  box-shadow: 0 10px 20px rgba(0,0,0,0), 0 6px 36px rgba(0,0,0,0.13);
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+.sidebar a {
+  display: block;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+  text-align: center;
+  font-weight: bold;
+}
+  
+.sidebar a:hover {
+  background-color: #8d9191;
+  color: black
+}
+
+div.content {
+  margin-left: 200px;
+  padding: 1px 16px;
+  height: 1000px;
+}
+
+@media screen and (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidebar a {float: left;}
+  div.content {margin-left: 0;}
+}
+
+@media screen and (max-width: 400px) {
+  .sidebar a {
+    text-align: center;
+    float: none;
+  }
+}
